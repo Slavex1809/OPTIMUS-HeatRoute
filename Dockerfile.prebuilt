@@ -1,0 +1,11 @@
+FROM eclipse-temurin:11-jre-jammy
+RUN groupadd --gid 10001 optimus && useradd --uid 10001 --gid optimus --no-create-home optimus && mkdir /data && chown optimus:optimus /data
+WORKDIR /app
+COPY release/optimus-heatroute.jar /app/optimus.jar
+COPY scripts/healthcheck.sh /app/healthcheck.sh
+RUN chmod 755 /app/healthcheck.sh
+USER optimus
+ENV OPTIMUS_STORAGE=/data JAVA_TOOL_OPTIONS="-Xms256m -Xmx6g -XX:+ExitOnOutOfMemoryError"
+EXPOSE 8080
+HEALTHCHECK --interval=15s --timeout=5s --start-period=60s --retries=5 CMD ["/app/healthcheck.sh"]
+ENTRYPOINT ["java","-jar","/app/optimus.jar"]

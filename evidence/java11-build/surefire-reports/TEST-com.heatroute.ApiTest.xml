@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.heatroute.ApiTest" time="2.92" tests="3" errors="0" skipped="0" failures="0">
+  <testcase name="importReturnsAuditAndByteFingerprint" classname="com.heatroute.ApiTest" time="0.348" />
+  <testcase name="missingJobIs404" classname="com.heatroute.ApiTest" time="0.009" />
+  <testcase name="healthUiAndOpenApi" classname="com.heatroute.ApiTest" time="0.271" />
+</testsuite>

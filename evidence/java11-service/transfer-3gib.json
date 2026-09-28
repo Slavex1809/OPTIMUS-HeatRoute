@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "inputBytes": 3221225472,
+  "httpStatus": 201,
+  "jobId": "7f13a106-5509-437c-8ef6-5d4e6b05096d",
+  "elapsedSeconds": 19.56154678699977,
+  "scope": "Two features plus JSON whitespace; does not establish large-geometry capacity"
+}

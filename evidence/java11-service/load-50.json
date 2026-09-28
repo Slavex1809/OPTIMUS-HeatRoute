@@ -1,0 +1,8 @@
+{
+  "clients": 50,
+  "completed": 50,
+  "errors": 0,
+  "medianSeconds": 1.3474885364998954,
+  "maxSeconds": 1.8804537529999834,
+  "scope": "Small synthetic calculations; not 50 simultaneous 3 GiB datasets"
+}

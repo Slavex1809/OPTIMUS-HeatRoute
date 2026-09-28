@@ -1,0 +1,1 @@
+PASS: single upload, audit, ready state, result cards, download, text escaping, target diagnostics, large-file map reset, dialog. DOM harness only; visual browser QA pending.

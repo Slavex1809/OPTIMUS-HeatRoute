@@ -1,0 +1,8 @@
+{
+  "java": "11.0.32.1",
+  "profile": "local",
+  "workflow": "Actual upload, run, browser export, report and viewer",
+  "connected": 17,
+  "targets": 17,
+  "browserErrors": []
+}

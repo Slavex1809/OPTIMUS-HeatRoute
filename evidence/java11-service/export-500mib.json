@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "bytes": 524288000,
+  "javaHeapMiB": 768,
+  "scope": "Actual HTTP stream; generated small GeoJSON padded with JSON whitespace, not 500 MiB of routing features"
+}

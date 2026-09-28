@@ -1,0 +1,9 @@
+**
+!backend/
+!backend/pom.xml
+!backend/src/
+!backend/src/**
+!release/
+!release/optimus-heatroute.jar
+!scripts/
+!scripts/healthcheck.sh

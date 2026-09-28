@@ -1,0 +1,43 @@
+{
+  "entryPolicy": "cost",
+  "before": {
+    "id": "optimus_v1_39",
+    "object_type": "variant_summary",
+    "variant_id": "v1",
+    "rank": 1,
+    "construction_cost": 436037745.3173262,
+    "chamber_construction_cost": 63000000,
+    "existing_chamber_tie_in_count": 2,
+    "existing_chamber_tie_in_cost": 10000000,
+    "unconnected_penalty": 0,
+    "calculated_cost": 436037745.3173262,
+    "new_network_length": 3575.597879442596,
+    "score": 22.93585050721292,
+    "unconnected_oks_ids": [],
+    "fingerprint": "d2736e7c4fb7d195294f9473b044d4c64754b00f3b916d3bc7ae023ec8773060"
+  },
+  "after": {
+    "id": "optimus_v1_40",
+    "object_type": "variant_summary",
+    "variant_id": "v1",
+    "rank": 1,
+    "construction_cost": 431306579.5250878,
+    "chamber_construction_cost": 68000000,
+    "existing_chamber_tie_in_count": 1,
+    "existing_chamber_tie_in_cost": 5000000,
+    "unconnected_penalty": 0,
+    "calculated_cost": 431306579.5250878,
+    "new_network_length": 3520.8856309839603,
+    "score": 22.639241119654336,
+    "unconnected_oks_ids": [],
+    "fingerprint": "754c141c3040da443235f93284f56622ff30b026afb4c4bf84e26cbea9f655cc"
+  },
+  "constructionSaving": 4731165.792238414,
+  "lengthReductionM": 54.71224845863571,
+  "scoreReduction": 0.2966093875585827,
+  "constructionSavingPercent": 1.0850358353255207,
+  "scoreReductionPercent": 1.2932129439250706,
+  "sameInputSha256": "cffb7133419d93fe364a53015a7d3ead289f671cbfaf6f4befe87f2a21914130",
+  "coveragePreserved": true,
+  "globalOptimalityProven": false
+}

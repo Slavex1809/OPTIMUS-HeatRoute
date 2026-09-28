@@ -1,0 +1,171 @@
+{
+  "calculatedInput": "data/corrected.geojson",
+  "originalInput": "references/previous-dataset.geojson",
+  "changes": [
+    {
+      "id": 116,
+      "objectType": "heat_network",
+      "geometryChanged": true,
+      "oldProperties": {
+        "id": 116,
+        "diameter": 500,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 116,
+        "diameter": 500,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 121,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 121,
+        "diameter": 300,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 121,
+        "diameter": 400,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 122,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 122,
+        "diameter": 300,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 122,
+        "diameter": 400,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 123,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 123,
+        "diameter": 300,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 123,
+        "diameter": 400,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 124,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 124,
+        "diameter": 300,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 124,
+        "diameter": 400,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 125,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 125,
+        "diameter": 300,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 125,
+        "diameter": 400,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 126,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 126,
+        "diameter": 300,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 126,
+        "diameter": 400,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 127,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 127,
+        "diameter": 300,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 127,
+        "diameter": 400,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 142,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 142,
+        "diameter": 500,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 142,
+        "diameter": 400,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 143,
+      "objectType": "heat_network",
+      "geometryChanged": false,
+      "oldProperties": {
+        "id": 143,
+        "diameter": 500,
+        "object_type": "heat_network"
+      },
+      "calculatedProperties": {
+        "id": 143,
+        "diameter": 300,
+        "object_type": "heat_network"
+      }
+    },
+    {
+      "id": 144,
+      "objectType": "source",
+      "geometryChanged": true,
+      "oldProperties": {
+        "id": 144,
+        "name": "ТЭЦ \"ЗИЛ\"",
+        "object_type": "source"
+      },
+      "calculatedProperties": {
+        "id": 144,
+        "name": "ТЭЦ ЗИЛ",
+        "object_type": "source"
+      }
+    }
+  ]
+}

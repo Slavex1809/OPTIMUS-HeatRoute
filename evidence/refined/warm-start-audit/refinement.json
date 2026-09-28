@@ -1,0 +1,14 @@
+{
+  "seed" : 1,
+  "beforeScore" : 22.935850507232897932270596,
+  "afterScore" : 22.639241119665850667894688,
+  "constructionBefore" : 436037745.3176560083668070,
+  "constructionAfter" : 431306579.5252694976390960,
+  "lengthBefore" : 3575.597879446176566,
+  "lengthAfter" : 3520.885630986101578,
+  "candidateChecks" : 2678,
+  "acceptedMoves" : 16,
+  "coveragePreserved" : true,
+  "elapsedMillis" : 29661,
+  "method" : "Economic merging; route shortcuts; tie-in and chamber relocation; bend relaxation; target regrouping"
+}

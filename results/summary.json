@@ -1,0 +1,59 @@
+{
+  "entryPolicy": "cost",
+  "input": "data/corrected.geojson",
+  "inputSha256": "cffb7133419d93fe364a53015a7d3ead289f671cbfaf6f4befe87f2a21914130",
+  "targets": 17,
+  "connected": 17,
+  "variants": [
+    {
+      "id": "optimus_v1_40",
+      "object_type": "variant_summary",
+      "variant_id": "v1",
+      "rank": 1,
+      "construction_cost": 431306579.5250878,
+      "chamber_construction_cost": 68000000,
+      "existing_chamber_tie_in_count": 1,
+      "existing_chamber_tie_in_cost": 5000000,
+      "unconnected_penalty": 0,
+      "calculated_cost": 431306579.5250878,
+      "new_network_length": 3520.8856309839603,
+      "score": 22.639241119654336,
+      "unconnected_oks_ids": [],
+      "fingerprint": "754c141c3040da443235f93284f56622ff30b026afb4c4bf84e26cbea9f655cc"
+    },
+    {
+      "id": "optimus_v2_44",
+      "object_type": "variant_summary",
+      "variant_id": "v2",
+      "rank": 2,
+      "construction_cost": 433119516.7077115,
+      "chamber_construction_cost": 61000000,
+      "existing_chamber_tie_in_count": 2,
+      "existing_chamber_tie_in_cost": 10000000,
+      "unconnected_penalty": 0,
+      "calculated_cost": 433119516.7077115,
+      "new_network_length": 3520.021630678858,
+      "score": 22.687411359852497,
+      "unconnected_oks_ids": [],
+      "fingerprint": "9ff3479bd587fe89ccc49d26efd96da99e1e6bed01fda573093db384f5308e81"
+    },
+    {
+      "id": "optimus_v3_39",
+      "object_type": "variant_summary",
+      "variant_id": "v3",
+      "rank": 3,
+      "construction_cost": 436037745.3173262,
+      "chamber_construction_cost": 63000000,
+      "existing_chamber_tie_in_count": 2,
+      "existing_chamber_tie_in_cost": 10000000,
+      "unconnected_penalty": 0,
+      "calculated_cost": 436037745.3173262,
+      "new_network_length": 3575.597879442596,
+      "score": 22.93585050721292,
+      "unconnected_oks_ids": [],
+      "fingerprint": "d2736e7c4fb7d195294f9473b044d4c64754b00f3b916d3bc7ae023ec8773060"
+    }
+  ],
+  "globalOptimalityProven": false,
+  "repeatedJava11FingerprintsMatch": true
+}

@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: optimus-heatroute
+  profiles:
+    default: local
+  servlet:
+    multipart:
+      max-file-size: 3GB
+      max-request-size: 3200MB
+      file-size-threshold: 0
+server:
+  port: ${PORT:8080}
+  tomcat:
+    threads:
+      max: 100
+    max-connections: 200
+optimus:
+  storage: ${OPTIMUS_STORAGE:./optimus-data}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+---
+spring:
+  config:
+    activate:
+      on-profile: postgres
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://db:5432/heatroute}
+    username: ${DB_USER:heatroute}
+    password: ${DB_PASSWORD:heatroute-local}
+    hikari:
+      maximum-pool-size: 12
+      minimum-idle: 2

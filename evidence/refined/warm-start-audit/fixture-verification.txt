@@ -1,0 +1,1 @@
+PASS: known 80 m optimum; existing chamber reused; source immutable; coverage, geometry, sizing and score verified

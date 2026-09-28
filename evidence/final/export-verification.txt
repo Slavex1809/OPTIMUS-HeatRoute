@@ -1,0 +1,4 @@
+PASS v1: 17/17 targets, 23 segments, S=22.63924111965433781937634
+PASS v2: 17/17 targets, 26 segments, S=22.687411359852496932469304
+PASS v3: 17/17 targets, 23 segments, S=22.935850507212920308892008
+PASS: identifiers, endpoints, trees, conservation of flow, capacities, cost and ranking. Spatial constraints are checked by the Java verifier.

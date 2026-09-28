@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.heatroute.RulesTest" time="0.098" tests="20" errors="0" skipped="0" failures="0">
+  <testcase name="portalSearchPrefersCheaperDetourToExpensiveStraightCrossing" classname="com.heatroute.RulesTest" time="0.042" />
+  <testcase name="narrowEntryCertificateChecksDirectTieAndNearestPointUniqueness" classname="com.heatroute.RulesTest" time="0.004" />
+  <testcase name="directionChangesAtMostNinety" classname="com.heatroute.RulesTest" time="0" />
+  <testcase name="diskSpoolPreservesGeometryAndCleansUp" classname="com.heatroute.RulesTest" time="0.007" />
+  <testcase name="metricRoundTrip" classname="com.heatroute.RulesTest" time="0" />
+  <testcase name="throughLineOccupiesTwoCameraPorts" classname="com.heatroute.RulesTest" time="0" />
+  <testcase name="defaultEntryAllowsAdmissibleBoundary" classname="com.heatroute.RulesTest" time="0.001" />
+  <testcase name="idTypeIsNotCoerced" classname="com.heatroute.RulesTest" time="0" />
+  <testcase name="ownBuildingAllowsCostSelectedStraightEntry" classname="com.heatroute.RulesTest" time="0.002" />
+  <testcase name="diameterUsesFlowAndLength" classname="com.heatroute.RulesTest" time="0" />
+  <testcase name="parallelLeavesAreNotSummedForLength" classname="com.heatroute.RulesTest" time="0.001" />
+  <testcase name="roadEntryAngleAndExtensions" classname="com.heatroute.RulesTest" time="0.002" />
+  <testcase name="duplicateInputIdsAreRejected" classname="com.heatroute.RulesTest" time="0.02" />
+  <testcase name="selectedEntryStillRejectsReentryAndOtherBuildings" classname="com.heatroute.RulesTest" time="0.001" />
+  <testcase name="exactMoneyAndScore" classname="com.heatroute.RulesTest" time="0" />
+  <testcase name="gasTransverseCrossingAndParallelClearance" classname="com.heatroute.RulesTest" time="0.001" />
+  <testcase name="continuousPathDoesNotResetAtChamber" classname="com.heatroute.RulesTest" time="0" />
+  <testcase name="maximumCoefficientAndAllSetBoundaries" classname="com.heatroute.RulesTest" time="0.002" />
+  <testcase name="routerChoosesCheaperNonNearestFacade" classname="com.heatroute.RulesTest" time="0.004" />
+  <testcase name="railwayNeverCrossed" classname="com.heatroute.RulesTest" time="0.001" />
+</testsuite>

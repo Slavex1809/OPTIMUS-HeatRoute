@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion><parent><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-parent</artifactId><version>2.6.3</version><relativePath/></parent>
+<groupId>com.heatroute</groupId><artifactId>optimus-heatroute</artifactId><version>2.1.0</version><name>OPTIMUS HeatRoute</name>
+<properties><java.version>11</java.version><maven.compiler.release>11</maven.compiler.release></properties>
+<dependencies>
+<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-web</artifactId></dependency>
+<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-jdbc</artifactId></dependency>
+<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-actuator</artifactId></dependency>
+<dependency><groupId>org.postgresql</groupId><artifactId>postgresql</artifactId><scope>runtime</scope></dependency>
+<dependency><groupId>org.springdoc</groupId><artifactId>springdoc-openapi-ui</artifactId><version>1.7.0</version></dependency>
+<dependency><groupId>org.locationtech.jts</groupId><artifactId>jts-core</artifactId><version>1.18.2</version></dependency>
+<dependency><groupId>org.locationtech.jts.io</groupId><artifactId>jts-io-common</artifactId><version>1.18.2</version></dependency>
+<dependency><groupId>org.locationtech.proj4j</groupId><artifactId>proj4j</artifactId><version>1.2.3</version></dependency>
+<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-test</artifactId><scope>test</scope></dependency>
+</dependencies>
+<build><plugins><plugin><groupId>org.springframework.boot</groupId><artifactId>spring-boot-maven-plugin</artifactId></plugin></plugins></build>
+</project>
